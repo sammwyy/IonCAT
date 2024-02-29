@@ -1,0 +1,2 @@
+# Format type:host:port
+# Supported types: socks4, socks5, http
