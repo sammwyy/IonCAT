@@ -20,7 +20,17 @@ pip install -r requirements.txt
 ## 📚 Usage
 
 ```bash
-python ioncat <options> COMMAND <flags>
+# Example targets:
+# - http://example.com     (Without port but with protocol)
+# - mysql://example.com    (Without protocol but with port)
+# - ftp://example.com:23   (With protocol and port)
+#
+# Invalid target:
+# - example.com            (Without protocol and without port)  
+#
+# If you don't specify a port this tool will use the default port for the protocol.
+# You must specify a protocol or a port.
+python ioncat <options> COMMAND [target] <flags>
 ```
 
 **Options:**
