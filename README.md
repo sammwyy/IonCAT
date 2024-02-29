@@ -36,7 +36,7 @@ python ioncat <options> COMMAND <flags>
 **Commands:**
 
 | Command | Description | Options |
-| ------- | ----------- | ------- | ------- |
+| ------- | ----------- | ------- |
 | `fastclose` | Fast open/close streams to the target | `method`, `threads`, `uas` |
 | `http` | HTTP/HTTPS flood | `bypass`, `method`,`random-body`, `threads`, `uas` |
 | `slowloris` | A lot of low traffic established connections | `bypass`, `method`, `sockets`, `threads`, `uas` |
